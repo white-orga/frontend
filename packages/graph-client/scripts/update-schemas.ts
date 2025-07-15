@@ -18,7 +18,7 @@ async function updateSchema(schema: keyof typeof schemas) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        Origin: 'https://frontend-one-xi-58.vercel.app',
+        Origin: 'https://sushi.com',
       },
       body: JSON.stringify({
         query: getIntrospectionQuery(),
