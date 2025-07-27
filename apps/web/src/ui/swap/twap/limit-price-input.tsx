@@ -2,7 +2,7 @@
 
 import { Radio, RadioGroup } from '@headlessui/react'
 import { XCircleIcon } from '@heroicons/react/20/solid'
-import ArrowsUpDownIcon from '@heroicons/react/24/solid/ArrowsUpDownIcon'
+import ChevronUpDownIcon from '@heroicons/react/24/solid/ChevronUpDownIcon'
 import {
   Currency,
   IconButton,
@@ -166,7 +166,7 @@ export const LimitPriceInput = () => {
           <span className="text-muted-foreground">is worth</span>
         </div>
         <IconButton
-          icon={ArrowsUpDownIcon}
+          icon={ChevronUpDownIcon}
           onClick={onInvert}
           name={'Invert'}
           className="!min-h-[30px] !h-[30px] !min-w-[30px] !w-[30px] px-2 transition-transform rotate-0 hover:rotate-180"

@@ -1,6 +1,6 @@
 'use client'
 
-import ArrowsUpDownIcon from '@heroicons/react/24/solid/ArrowsUpDownIcon'
+import ChevronUpDownIcon from '@heroicons/react/24/solid/ChevronUpDownIcon'
 import {
   BrowserEvent,
   InterfaceElementName,
@@ -25,10 +25,10 @@ export const SimpleSwapSwitchTokensButton = () => {
         <button
           onClick={switchTokens}
           type="button"
-          className="hover:shadow-sm transition-border z-10 group bg-background p-2 border border-accent transition-all rounded-full cursor-pointer"
+          className="hover:shadow-sm transition-border z-10 group bg-red-500 p-2 border border-accent transition-all rounded-full cursor-pointer"
         >
           <div className="transition-transform rotate-0 group-hover:rotate-180">
-            <ArrowsUpDownIcon strokeWidth={3} className="w-3 h-3 text-blue" />
+            <ChevronUpDownIcon strokeWidth={3} className="w-6 h-6 text-white" />
           </div>
         </button>
       </TraceEvent>
