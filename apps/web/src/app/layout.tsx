@@ -3,6 +3,7 @@ import '@sushiswap/ui/index.css'
 import { ToastContainer } from '@sushiswap/notifications'
 import type { Metadata } from 'next'
 import { Inter, Roboto_Mono } from 'next/font/google'
+import Image from 'next/image'
 import type React from 'react'
 import { CookieDialogContainer } from './_common/cookies/cookie-dialog-container'
 import { Trackers } from './trackers'
@@ -68,7 +69,40 @@ export default function RootLayout({
         <CookieDialogContainer />
         {children}
         <Trackers />
+        <CiteaBackground />
       </body>
     </html>
+  )
+}
+
+const CiteaBackground = () => {
+  return (
+    <div className="fixed inset-0 -z-10 overflow-hidden">
+      <div className="absolute bottom-0 right-0 w-[1200px] h-[1200px]">
+        <Image
+          src="/bg.jpg"
+          alt="background"
+          width={1200}
+          height={1200}
+          priority
+          unoptimized
+          className="object-contain absolute bottom-0 right-0 opacity-80"
+        />
+
+        {/* CIRCLE RADIAL GRADIENT */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            background: `radial-gradient(
+              circle at 60% 140%,
+              rgba(15, 23, 42, 0) 10%,
+              rgba(15, 23, 42, 0.2) 40%,
+              #0f172a 65%,
+              #0f172a 10%
+            )`,
+          }}
+        />
+      </div>
+    </div>
   )
 }
