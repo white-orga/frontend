@@ -22,8 +22,8 @@ const roboto_mono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Sushi 🍣',
-    template: '%s | Sushi 🍣',
+    default: 'Citeazens ',
+    template: '%s | Citeazens ',
   },
   description:
     'A Decentralised Finance (DeFi) app with features such as swap, cross chain swap, streaming, vesting, and permissionless market making for liquidity providers.',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
         url: 'https://cdn.sushi.com/image/upload/v1731498183/sushi-assets/embed-web-visuals/default.jpg',
         width: 1920,
         height: 1080,
-        alt: 'Sushi 🍣',
+        alt: 'Citeazens ',
       },
     ],
   },
@@ -57,11 +57,11 @@ export default function RootLayout({
     >
       <head>
         <link rel="manifest" href="/site.webmanifest?v=1" />
-        <link
+        {/* <link
           rel="mask-icon"
           href="/safari-pinned-tab.svg?v=1"
           color="#fa52a0"
-        />
+        /> */}
         <link rel="shortcut icon" href="/favicon.ico?v=1" />
       </head>
       <body className="min-h-screen flex flex-col">

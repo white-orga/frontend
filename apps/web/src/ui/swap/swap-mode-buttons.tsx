@@ -63,7 +63,7 @@ export const SwapModeButtons = () => {
       >
         Swap
       </SwapModeButton>
-      <SwapModeButton
+      {/* <SwapModeButton
         isSupported={isTwapSupportedChainId(chainId)}
         path={`/${ChainKey[chainId]}/limit`}
       >
@@ -74,7 +74,7 @@ export const SwapModeButtons = () => {
         path={`/${ChainKey[chainId]}/dca`}
       >
         DCA
-      </SwapModeButton>
+      </SwapModeButton> */}
       <HoverCard>
         <SwapModeButton
           isSupported={isXSwapSupportedChainId(chainId)}

@@ -125,7 +125,7 @@ export const SimpleSwapTradeStats: FC = () => {
             {loading || !quote ? (
               <SkeletonBox className="h-4 py-0.5 w-[120px]" />
             ) : (
-              'SushiSwap API'
+              'Citeazens API'
             )}
           </span>
         </div>

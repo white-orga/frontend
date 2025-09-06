@@ -22,7 +22,7 @@ export function NavigationItems() {
           size="sm"
         >
           <span className="flex items-center gap-2">
-            <span>🍣</span>{' '}
+            <span></span>{' '}
             <span>
               Rewards <sup>v3</sup>
             </span>

@@ -156,7 +156,7 @@ const DesktopRouteSelector: FC<RouteSelectorProps> = ({
           <CardFooter className="flex-col gap-3 whitespace-nowrap text-sm text-muted-foreground">
             <div className="flex gap-3">
               <span>✨ Best Pricing</span>
-              <span>🍣 Fastest Response Time</span>
+              <span>Fastest Response Time</span>
             </div>
             <span>‍‍👨‍🍳 Widest Network Coverage</span>
           </CardFooter>
@@ -273,7 +273,7 @@ const MobileRouteSelector: FC<RouteSelectorProps> = ({
             <CardFooter className="flex-col gap-3 whitespace-nowrap text-sm text-muted-foreground">
               <div className="flex gap-3">
                 <span>✨ Best Pricing</span>
-                <span>🍣 Fastest Response Time</span>
+                <span>Fastest Response Time</span>
               </div>
               <span>‍‍👨‍🍳 Widest Network Coverage</span>
             </CardFooter>

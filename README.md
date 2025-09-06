@@ -1,6 +1,6 @@
 # Sushi Monorepo
 
-Sushi 2.0 🍣
+Sushi 2.0 
 
 ## Getting Started
 
