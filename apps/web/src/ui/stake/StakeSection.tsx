@@ -41,7 +41,7 @@ const _StakeSection = () => {
           chainId={ChainId.ETHEREUM}
           hoverCardContent={
             <span className="text-xs text-muted-foreground text-center w-full">
-              {`Sushi Bar is only available on Ethereum Mainnet. You are
+              {`Citea Bar is only available on Ethereum Mainnet. You are
                 connected to an unsupported network.`}
             </span>
           }
