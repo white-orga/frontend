@@ -12,7 +12,7 @@ import { NavigationItems } from '../navigation-items'
 
 export const metadata: Metadata = {
   title: 'Pools',
-  description: 'Explore SushiSwap pools.',
+  description: 'Explore Citeazens pools.',
 }
 
 export default async function ExploreLayout(props: {

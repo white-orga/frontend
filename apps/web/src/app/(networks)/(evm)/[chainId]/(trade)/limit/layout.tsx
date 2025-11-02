@@ -7,7 +7,7 @@ import { Providers } from './providers'
 
 export const metadata: Metadata = {
   title: 'Limit',
-  description: 'Trade with limit orders on SushiSwap.',
+  description: 'Trade with limit orders on Citeazens.',
 }
 
 export default async function SwapLimitLayout(props: {

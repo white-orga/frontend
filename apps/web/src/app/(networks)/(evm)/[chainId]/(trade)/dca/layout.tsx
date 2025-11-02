@@ -8,7 +8,7 @@ import { Providers } from './providers'
 export const metadata: Metadata = {
   title: 'DCA',
   description:
-    "Dollar-cost average into your favorite tokens with SushiSwap's DCA tool.",
+    "Dollar-cost average into your favorite tokens with Citeazens' DCA tool.",
 }
 
 export default async function SwapDCALayout(props: {

@@ -31,7 +31,7 @@ export const ArticleLinks: FC<ArticleLinks> = ({ article }) => {
         <a
           href={`mailto:?subject=${encodeURI(
             article.title || '',
-          )}&body=Checkout this new SushiSwap Blog article ${encodeURI(
+          )}&body=Checkout this new Citeazens Blog article ${encodeURI(
             `https://www.sushi.com/blog/${article.slug}`,
           )}`}
           title="Share by Email"

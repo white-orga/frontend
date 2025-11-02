@@ -2,9 +2,9 @@ import { Header } from '~tron/header'
 import { Providers } from './providers'
 
 export const metadata = {
-  title: 'SushiSwap on Tron',
+  title: 'Citeazens on Tron',
   description:
-    'SushiSwap is a community-driven decentralized exchange (DEX) for traders and liquidity providers.',
+    'Citeazens is a community-driven decentralized exchange (DEX) for traders and liquidity providers.',
 }
 
 export default function SwapLayout({

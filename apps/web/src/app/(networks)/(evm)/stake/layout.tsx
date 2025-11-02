@@ -6,7 +6,7 @@ import { Providers } from './providers'
 
 export const metadata = {
   title: 'Stake',
-  description: 'Stake SUSHI in the SushiBar to earn more SUSHI.',
+  description: 'Stake CITEA in the SushiBar to earn more CITEA.',
 }
 
 const supportedNetworks = [EvmChainId.ETHEREUM]

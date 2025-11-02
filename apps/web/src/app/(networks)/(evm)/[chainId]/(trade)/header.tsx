@@ -38,14 +38,20 @@ const TransparentHeader: FC<HeaderProps> = ({
     <div className="w-full h-[56px] z-20">
       <div className="fixed w-full flex z-20">
         <div className="hidden lg:flex justify-between items-center px-1 h-14 flex-shrink-0 border-transparent border-b">
-          <SushiNavigationDropdown className="!px-2">
-            <SushiWithTextIcon width={90} />
-          </SushiNavigationDropdown>
+          {/* <SushiNavigationDropdown className="!px-2"> */}
+          {/* <SushiWithTextIcon width={120} /> */}
+          <img src="/navbar.png" alt="Citeazens" className="w-[180px] h-auto" />
+          {/* </SushiNavigationDropdown> */}
         </div>
         <div className="flex lg:hidden justify-between items-center pl-4 border-transparent border-b">
-          <SushiNavigationDropdown>
-            <SushiIcon width={24} height={24} />
-          </SushiNavigationDropdown>
+          {/* <SushiNavigationDropdown> */}
+          {/* <SushiIcon width={24} height={24} /> */}
+          <img
+            src="/favicon-32x32.png"
+            alt="Citeazens"
+            className="w-[32px] h-auto"
+          />
+          {/* </SushiNavigationDropdown> */}
         </div>
         <Navigation
           className="!pl-0 lg:!pl-4 !z-[unset] !bg-[unset] dark:!bg-[unset] !border-transparent dark:!border-transparent"
