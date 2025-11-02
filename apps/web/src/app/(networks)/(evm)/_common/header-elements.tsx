@@ -99,12 +99,12 @@ export const headerElements = ({
       </NavigationMenuItem>
     ),
   },
-  {
-    title: 'Stake',
-    href: '/stake',
-    show: 'desktop',
-    type: NavigationElementType.Single,
-  },
+  // {
+  //   title: 'Stake',
+  //   href: '/stake',
+  //   show: 'desktop',
+  //   type: NavigationElementType.Single,
+  // },
   // {
   //   title: 'More',
   //   items: MORE_NAVIGATION_LINKS,
