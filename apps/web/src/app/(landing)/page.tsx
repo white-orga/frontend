@@ -19,7 +19,7 @@ export default function LandingPage() {
   const isSmallScreen = useIsSmScreen()
   return (
     <MotionConfig reducedMotion={isSmallScreen ? 'always' : 'user'}>
-      <article className="w-full my-20">
+      <article className="w-full my-30">
         <Hero />
         <Stats />
         <Separator />
