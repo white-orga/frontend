@@ -368,7 +368,7 @@ const _SimpleSwapTradeReviewDialog: FC<{
                       <List.KeyValue
                         title="Token tax"
                         subtitle="
-                        Certain tokens incur a fee upon purchase or sale. Sushiswap does not collect any of these fees."
+                        Certain tokens incur a fee upon purchase or sale. Citeazens does not collect any of these fees."
                       >
                         <span className="text-right text-yellow">
                           {trade.tokenTax.toPercentageString()}
